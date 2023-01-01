@@ -21,7 +21,7 @@ namespace MaxsuDetectionMeter
 	{
 		if (a_level < 0) {
 			a_level += 100;
-			return a_level = std::min(std::max(a_level, 0), 100);
+			return a_level = min(max(a_level, 0), 100);
 		} else
 			return 100;
 	}
